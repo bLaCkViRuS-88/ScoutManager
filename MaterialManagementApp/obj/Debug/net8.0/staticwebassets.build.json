@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "g/5fLPkAidlz77VacyTc+FTs2IjPEFH9xrlwhKBRmis=",
+  "Source": "MaterialManagementApp",
+  "BasePath": "_content/MaterialManagementApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MaterialManagementApp\\wwwroot",
+      "Source": "MaterialManagementApp",
+      "ContentRoot": "C:\\Users\\luigi\\ScoutManager\\MaterialManagementApp\\wwwroot\\",
+      "BasePath": "_content/MaterialManagementApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\luigi\\ScoutManager\\MaterialManagementApp\\wwwroot\\css\\site.css",
+      "SourceId": "MaterialManagementApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luigi\\ScoutManager\\MaterialManagementApp\\wwwroot\\",
+      "BasePath": "_content/MaterialManagementApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "67rx4x7g32",
+      "Integrity": "DuC5nIP0gBjFZryGOnpiRznCVWTl5oaKamH+LKv7AYE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.67rx4x7g32.css",
+      "AssetFile": "C:\\Users\\luigi\\ScoutManager\\MaterialManagementApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuC5nIP0gBjFZryGOnpiRznCVWTl5oaKamH+LKv7AYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 13:59:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "67rx4x7g32"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuC5nIP0gBjFZryGOnpiRznCVWTl5oaKamH+LKv7AYE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\luigi\\ScoutManager\\MaterialManagementApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuC5nIP0gBjFZryGOnpiRznCVWTl5oaKamH+LKv7AYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 13:59:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuC5nIP0gBjFZryGOnpiRznCVWTl5oaKamH+LKv7AYE="
+        }
+      ]
+    }
+  ]
+}
