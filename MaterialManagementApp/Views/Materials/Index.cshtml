@@ -1,0 +1,33 @@
+@model IEnumerable<Material>
+
+@{
+    ViewData["Title"] = "Materials Index";
+}
+
+<h1>Materials</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var material in Model)
+        {
+            <tr>
+                <td>@material.Id</td>
+                <td>@material.Name</td>
+                <td>@material.Description</td>
+                <td>@material.Quantity</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@material.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

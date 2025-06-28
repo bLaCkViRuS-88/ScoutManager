@@ -1,0 +1,11 @@
+@model MaterialManagementApp.Models.Material
+
+<h1>Material Details</h1>
+
+<div>
+    <h2>@Model.Name</h2>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Quantity:</strong> @Model.Quantity</p>
+</div>
+
+<a href="@Url.Action("Index", "Materials")">Back to List</a>
